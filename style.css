@@ -1,0 +1,38 @@
+*,html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column: 1 / -1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    list-style-type: none;
+}
+
+.links {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
